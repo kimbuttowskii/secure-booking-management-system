@@ -220,7 +220,3 @@ Course:Bachelor in Computer System Security/Secure Software Development
 
 Institution: Malaysian Institute of Information Technology
 
-
-### 📜 License
-
-This project is for educational purposes only.
