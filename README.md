@@ -1,17 +1,3 @@
-## 📸 Screenshots
-
-### Login Page
-![Login](screenshots/login.png)
-
-### Dashboard
-![Dashboard](screenshots/dashboard.png)
-
-### Booking Management
-![Bookings](screenshots/bookings.png)
-
-### Admin Panel
-![Admin](screenshots/admin.png)
-
 # Secure Booking Management System
 
 A secure web-based Booking Management System developed using Laravel with a strong focus on secure coding practices, access control, and vulnerability mitigation.
@@ -28,6 +14,20 @@ An admin role is included to manage all bookings. The system applies OWASP Top 1
 - Protect against common web vulnerabilities
 - Log sensitive user actions
 - Perform vulnerability scanning and remediation
+
+## 📸 Screenshots
+
+### Login Page
+![Login](screenshots/Login_page.png)
+
+### Dashboard
+![Dashboard](screenshots/Dashboard.png)
+
+### Booking Management
+![Bookings1](screenshots/Booking_page-1.png)
+![Bookings2](screenshots/Booking_page-2.png)
+### Admin Panel
+![Admin](screenshots/Admin_panel.png)
 
 ### Features:
 
