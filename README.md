@@ -25,7 +25,9 @@ An admin role is included to manage all bookings. The system applies OWASP Top 1
 
 ### Booking Management
 ![Bookings1](screenshots/Booking_page-1.png)
+
 ![Bookings2](screenshots/Booking_page-2.png)
+
 ### Admin Panel
 ![Admin](screenshots/Admin_panel.png)
 
