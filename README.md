@@ -138,20 +138,63 @@ tests/Feature/Auth/
  └── EmailVerificationTest.php
 ```
 
-### 🧾 Assignment Compliance
+### 📦 Dependencies
 
-✔ Secure CRUD module implemented
+This project is built using Laravel and relies on the following dependencies:
 
-✔ OWASP Top 10 addressed
+### Core Dependencies
 
-✔ Vulnerability scan performed
+| Dependency                  | Purpose                              |
+| --------------------------- | ------------------------------------ |
+| **PHP (≥ 8.1)**             | Server-side scripting language       |
+| **Laravel Framework (v10)** | Backend web application framework    |
+| **Composer**                | PHP dependency manager               |
+| **Node.js & NPM**           | Frontend asset compilation           |
+| **Vite**                    | Frontend build tool                  |
+| **SQLite**                  | Lightweight database for development |
+| **Laravel Herd**            | Local development environment        |
 
-✔ Fixes documented
+### Laravel Packages (Default & Used)
 
-✔ Role-based access control
+| Package             | Purpose                                                  |
+| ------------------- | -------------------------------------------------------- |
+| **laravel/breeze**  | Authentication (login, registration, email verification) |
+| **laravel/sanctum** | CSRF protection and session security                     |
+| **laravel/tinker**  | Debugging and testing                                    |
+| **laravel/ui**      | UI scaffolding (Blade + Tailwind)                        |
 
-✔ Secure session & CSRF handling
+### Frontend Dependencies
 
+| Dependency       | Purpose                   |
+| ---------------- | ------------------------- |
+| **Tailwind CSS** | Responsive UI styling     |
+| **PostCSS**      | CSS processing            |
+| **Autoprefixer** | Cross-browser CSS support |
+
+### Security-Related Features (Built-in)
+
+| Feature                       | Description                            |
+| ----------------------------- | -------------------------------------- |
+| **CSRF Protection**           | Prevents cross-site request forgery    |
+| **Password Hashing (bcrypt)** | Secure password storage                |
+| **Authorization Policies**    | Role-based access control (admin/user) |
+| **Form Validation**           | Input sanitization and validation      |
+| **Audit Logging**             | Tracks create/update/delete actions    |
+
+### Development & Testing
+
+| Tool                  | Purpose                            |
+| --------------------- | ---------------------------------- |
+| **PHPUnit / Pest**    | Feature and authentication testing |
+| **Laravel Factories** | Test data generation               |
+| **SQLite (Testing)**  | Fast automated testing             |
+
+### Environment Configuration
+```
+APP_ENV=local
+DB_CONNECTION=sqlite
+SESSION_DRIVER=database
+```
 
 ### 👨‍🎓 Author
 
