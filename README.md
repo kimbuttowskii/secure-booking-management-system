@@ -71,7 +71,7 @@ An admin role is included to manage all bookings. The system applies OWASP Top 1
 
 ### 🧪 Vulnerability Testing
 
-Security testing was conducted using Snyk.
+Security testing was conducted using Snyk, OWASP ZAP and Burp Suite.
 
 ### 🛠️ Technologies Used
 - Backend: Laravel 10
